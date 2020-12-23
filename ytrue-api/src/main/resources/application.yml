@@ -1,0 +1,18 @@
+server:
+  port: 9997
+spring:
+  application:
+    name: ytrue-mall-api
+  boot:
+    admin:
+      client:
+        url: http://127.0.0.1:9996
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always

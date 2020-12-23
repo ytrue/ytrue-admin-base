@@ -1,0 +1,7 @@
+spring:
+  # 环境 dev|test|prod quart定时任务
+  profiles:
+    active: dev,quartz
+  main:
+    ##当遇到同样名字的时候，是否允许覆盖注
+    allow-bean-definition-overriding: true

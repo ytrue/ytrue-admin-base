@@ -1,0 +1,8 @@
+server:
+  port: 9996
+spring:
+  application:
+    name: ytrue-monitor
+logging:
+  level:
+    com.ytrue.mall.monitor: debug
